@@ -1,0 +1,19 @@
+{
+	"name": "node",
+	"image": "ghcr.io/randname/devcontainer-node:latest",
+	"customizations": {
+		"vscode": {
+			"settings": {
+			},
+			"extensions": [
+				"Vue.volar",
+				"eamodio.gitlens",
+				"esbenp.prettier-vscode"
+			]
+		}
+	},
+	"forwardPorts": [
+		5173
+	],
+	"runArgs": ["--name", "sample-devcontainer"]
+}
