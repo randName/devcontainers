@@ -53,5 +53,5 @@ RUN git clone --depth=1 --recursive \
 
 LABEL devcontainer.metadata='[{\
 	"postCreateCommand": "sudo chown $(whoami) node_modules",\
-	"mounts": ["type=volume,source=node_modules,target=${containerWorkspaceFolder}/node_modules"]\
+	"mounts": ["type=volume,target=${containerWorkspaceFolder}/node_modules"]\
 }]'
