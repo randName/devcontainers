@@ -1,10 +1,7 @@
 {
-	"name": "node",
 	"image": "ghcr.io/randname/devcontainer-node:latest",
 	"customizations": {
 		"vscode": {
-			"settings": {
-			},
 			"extensions": [
 				"Vue.volar",
 				"eamodio.gitlens",

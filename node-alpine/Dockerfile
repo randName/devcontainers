@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.source=https://github.com/randName/devcontainers
 LABEL org.opencontainers.image.description="Node.js on Alpine"
 LABEL org.opencontainers.image.licenses=MIT
 
-ARG NODE_VERSION=20.6.1
+ARG NODE_VERSION=20.0.0
 
 ARG MAKE_CORES=4
 
